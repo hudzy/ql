@@ -1,13 +1,12 @@
-# !/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# Modify : 2024/6/21
+"""
+cron: 0 17 * * *
+new Env('validateCookie');
+"""
+
+#!/usr/bin/env python3
+# coding: utf-8
 # Notify on invalid JD_COOKIE
 # https://github.com/hudzy/ql/raw/master/validateCookie.py
-
-'''
-new Env('validateCookie');
-0 17 * * * validateCookie.py
-'''
 
 import os
 import requests
