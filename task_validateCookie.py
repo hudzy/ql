@@ -1,5 +1,5 @@
 """
-cron: 0 17 * * *
+cron: 0 16 * * *
 new Env('validateCookie');
 """
 
