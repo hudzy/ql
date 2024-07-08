@@ -6,10 +6,10 @@ ql repo https://github.com/hudzy/ql.git "task_"
 # Setup notification token for specified task
 case $1 in
     *task_validateCookie* )
-		export PUSH_PLUS_TOKEN="123321123321"
+		export PUSH_KEY="1"
         ;;
     *)
-		export PUSH_PLUS_TOKEN=""
+		export PUSH_KEY=""
         ;;
 esac
 ```
