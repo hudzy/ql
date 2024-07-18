@@ -25,4 +25,4 @@ jobs:
         with:
           context: ./docker
           push: true
-          tags: hudzy/ql:2.17.6
+          tags: hudzy/ql:2.17
