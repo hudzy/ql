@@ -25,4 +25,5 @@ jobs:
         with:
           context: ./docker
           push: true
+          platforms: linux/amd64,linux/arm64
           tags: hudzy/ql:2.17
