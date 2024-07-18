@@ -4,6 +4,10 @@ dir_shell=/ql/shell
 . $dir_shell/env.sh
 . $dir_shell/share.sh
 
+fix_config
+# pm2 l &>/dev/null
+patch_version
+reload_update
 reload_pm2
 
 ql repo https://github.com/hudzy/ql.git                   "task_"
